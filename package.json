@@ -19,14 +19,38 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "arr-map": "^2.0.0",
-    "get-values": "^0.1.0",
-    "is-plain-object": "^2.0.1",
-    "make-iterator": "^0.1.1"
-  },
+  "keywords": [
+    "collection",
+    "map"
+  ],
   "devDependencies": {
-    "mocha": "*"
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
   },
-  "keywords": []
+  "dependencies": {
+    "arr-map": "^2.0.1",
+    "for-own": "^1.0.0",
+    "make-iterator": "^1.0.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "for-in",
+        "for-own",
+        "arr-map",
+        "arr-flatten"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
