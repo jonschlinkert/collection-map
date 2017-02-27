@@ -17,10 +17,6 @@ module.exports = function(collection, fn, thisArg) {
     var result = [];
 
     forOwn(collection, function(value, key) {
-      if (typeof fn === 'string') {
-        console.log(collection[fn])
-      }
-
       result.push(iterator(value, key, collection));
     });
 
