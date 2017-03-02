@@ -19,19 +19,19 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "collection",
-    "map"
-  ],
+  "dependencies": {
+    "arr-map": "^2.0.2",
+    "for-own": "^1.0.0",
+    "make-iterator": "^1.0.0"
+  },
   "devDependencies": {
     "gulp-format-md": "^0.1.11",
     "mocha": "^3.2.0"
   },
-  "dependencies": {
-    "arr-map": "^2.0.1",
-    "for-own": "^1.0.0",
-    "make-iterator": "^1.0.0"
-  },
+  "keywords": [
+    "collection",
+    "map"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
@@ -43,10 +43,10 @@
     ],
     "related": {
       "list": [
-        "for-in",
-        "for-own",
+        "arr-flatten",
         "arr-map",
-        "arr-flatten"
+        "for-in",
+        "for-own"
       ]
     },
     "lint": {
